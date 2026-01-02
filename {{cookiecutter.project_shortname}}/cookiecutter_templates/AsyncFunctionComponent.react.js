@@ -17,8 +17,6 @@ const {{cookiecutter.component_name}} = (props) => {
     );
 };
 
-{{cookiecutter.component_name}}.defaultProps = {};
-
 {{cookiecutter.component_name}}.propTypes = {
     /**
      * The ID used to identify this component in Dash callbacks.
@@ -44,5 +42,4 @@ const {{cookiecutter.component_name}} = (props) => {
 
 export default {{cookiecutter.component_name}};
 
-export const defaultProps = {{cookiecutter.component_name}}.defaultProps;
 export const propTypes = {{ cookiecutter.component_name }}.propTypes;
